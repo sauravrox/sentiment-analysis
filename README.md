@@ -11,7 +11,7 @@ The dataset used in the project has been downloaded from [Kaggle](https://www.ka
 
 The dataset has been cleaned using the custom defined function where special characters, symbols, links and twitter handle are removed. The null values have been removed which left the total of 99950 usable cleaned rows.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/sauravrox/sentiment-analysis/tree/main/images/dataset.png)
 
 *Negative > 33392*
 *positive > 33316*
