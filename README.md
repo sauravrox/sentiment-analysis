@@ -1,5 +1,17 @@
 # Sentiment Analysis
 
+Sentiment analysis aims to analyze and predict the opinion, sentiment and view towards the given subject. This project tends to show mainly two concepts, comparison of different Machine learning models and how different models can be developed to show the sentiment behind the tweets as positive, negative or, neutral.
+There is a room for improvement in every aspect of development. In this regard, the accuracy of all these models can always be improved. Accuracy improvement generally involves two methods, parameters tuning and dataset cleaning.
+
+There are altogether 3 lexicon based methods and 7 machine learning models in this project. For lexicon method, SentiWordnet, VADER and Textblob are used. And for machine learning models, Logistic Regression, Decision Tree, Support Vector Machine, Random Forest, Long Short Term Memory (LSTM), Naive Bayes and XG Boost are used.
+
+*Dataset:*
+
+The dataset used in the project has been downloaded from Kaggle [Link to dataset](https://www.kaggle.com/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv). The total of 1000,000 rows have been used for this project.
+
+The dataset has been cleaned using the custom defined function where special characters, symbols, links and twitter handle are removed. The null values have been removed which left the total of 99950 usable cleaned rows.
+
+
 ## Lexicon Based Approach
 
 Generally speaking, in lexicon-based approaches a piece of text message is represented as a bag of words. Following this representation of the message, sentiment values from the dictionary are assigned to all positive and negative words or phrases within the message. A combining function, such as sum or average, is applied in order to make the final prediction regarding the overall sentiment for the message. Apart from a sentiment value, the aspect of the local context of a word is usually taken into consideration, such as negation or intensification.
