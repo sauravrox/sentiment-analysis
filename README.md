@@ -5,7 +5,7 @@ There is a room for improvement in every aspect of development. In this regard, 
 
 There are altogether 3 lexicon based methods and 7 machine learning models in this project. For lexicon method, SentiWordnet, VADER and Textblob are used. And for machine learning models, Logistic Regression, Decision Tree, Support Vector Machine, Random Forest, Long Short Term Memory (LSTM), Naive Bayes and XG Boost are used.
 
-*Dataset:*
+**Dataset:**
 
 The dataset used in the project has been downloaded from Kaggle [Link to dataset](https://www.kaggle.com/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv). The total of 1000,000 rows have been used for this project.
 
