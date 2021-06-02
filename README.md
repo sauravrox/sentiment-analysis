@@ -7,7 +7,7 @@ There are altogether 3 lexicon based methods and 7 machine learning models in th
 
 **Dataset:**
 
-The dataset used in the project has been downloaded from Kaggle [Link to dataset](https://www.kaggle.com/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv). The total of 1000,000 rows have been used for this project.
+The dataset used in the project has been downloaded from [Kaggle](https://www.kaggle.com/kazanova/sentiment140?select=training.1600000.processed.noemoticon.csv). The total of 1000,000 rows have been used for this project.
 
 The dataset has been cleaned using the custom defined function where special characters, symbols, links and twitter handle are removed. The null values have been removed which left the total of 99950 usable cleaned rows.
 
