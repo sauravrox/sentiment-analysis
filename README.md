@@ -36,15 +36,15 @@ Machine Learning involves training the model by certain portion of data making t
 
 **Logistic Regression:**
 
-Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Some of the examples of classification problems are Email spam or not spam, Online transactions Fraud or not Fraud, Tumor Malignant or Benign. Logistic regression transforms its output using the logistic sigmoid function to return a probability value [4](https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148).
+Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Some of the examples of classification problems are Email spam or not spam, Online transactions Fraud or not Fraud, Tumor Malignant or Benign. Logistic regression transforms its output using the logistic sigmoid function to return a probability value [[4]](https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148).
 
 **Support Vector Machine(SVM)**
 
-SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. The idea of SVM is simple: The algorithm creates a line or a hyperplane which separates the data into classes[5](https://towardsdatascience.com/https-medium-com-pupalerushikesh-svm-f4b42800e989).
+SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. The idea of SVM is simple: The algorithm creates a line or a hyperplane which separates the data into classes [[5]](https://towardsdatascience.com/https-medium-com-pupalerushikesh-svm-f4b42800e989).
 
 **Decision Tree**
 
-Decision tree is one of the most common machine learning algorithms. Used in statistics and data analysis for predictive models. A decision tree is a flowchart like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes)[6](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579).
+Decision tree is one of the most common machine learning algorithms. Used in statistics and data analysis for predictive models. A decision tree is a flowchart like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes) [[6]](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579).
 
 **Random Forest**
 
@@ -62,4 +62,4 @@ Long Short-Term Memory (LSTM) networks are a modified version of recurrentneural
 
 **Naive Bayes**
 
-Naive Bayes methods are a set of supervised learning algorithms based on applyingBayes’ theorem with the “naive” assumption of conditional independence betweenevery pair of features given the value of the class variable. In spite of their appar-ently over-simplified assumptions, naive Bayes classifiers have worked quite well inmany real-world situations, famously document classification and spam filtering.They require a small amount of training data to estimate the necessary parameters[10](https://scikit-learn.org/stable/modules/naive-bayes.html).
+Naive Bayes methods are a set of supervised learning algorithms based on applyingBayes’ theorem with the “naive” assumption of conditional independence betweenevery pair of features given the value of the class variable. In spite of their appar-ently over-simplified assumptions, naive Bayes classifiers have worked quite well inmany real-world situations, famously document classification and spam filtering.They require a small amount of training data to estimate the necessary parameters [[10]](https://scikit-learn.org/stable/modules/naive-bayes.html).
