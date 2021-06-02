@@ -48,16 +48,16 @@ Decision tree is one of the most common machine learning algorithms. Used in sta
 
 **Random Forest**
 
-Random forest methods combines multiple decision trees, trains each one on a slightly different set of observations. Splitting nodes in each tree considering a limited number of features. The final predictions of the random forest are made by averaging the predictions of each individual tree Citation Citation [7](https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76).
+Random forest methods combines multiple decision trees, trains each one on a slightly different set of observations. Splitting nodes in each tree considering a limited number of features. The final predictions of the random forest are made by averaging the predictions of each individual tree Citation Citation [[7]](https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76).
 
 **XGBoost**
 
-XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks. However, when it comes to small-to-medium structured/tabular data, decision tree based algorithms are considered best-in-class right now[8](https://www.kdnuggets.com/2019/05/xgboost-algorithm.html).
+XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks. However, when it comes to small-to-medium structured/tabular data, decision tree based algorithms are considered best-in-class right now [[8]](https://www.kdnuggets.com/2019/05/xgboost-algorithm.html).
 
 
 **Long Short-Term Memory (LSTM)**
 
-Long Short-Term Memory (LSTM) networks are a modified version of recurrentneural networks, which makes it easier to remember past data in memory. The van-ishing gradient problem of RNN is resolved here. LSTM is well-suited to classify,process and predict time series given time lags of unknown duration. It trains themodel by using back-propagation[9](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e).
+Long Short-Term Memory (LSTM) networks are a modified version of recurrentneural networks, which makes it easier to remember past data in memory. The van-ishing gradient problem of RNN is resolved here. LSTM is well-suited to classify,process and predict time series given time lags of unknown duration. It trains themodel by using back-propagation [[9]](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e).
 
 
 **Naive Bayes**
