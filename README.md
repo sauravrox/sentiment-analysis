@@ -59,14 +59,25 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
 ![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-predict-plot.png)
 
+**Decision Tree**
+
+Decision tree is one of the most common machine learning algorithms. Used in statistics and data analysis for predictive models. A decision tree is a flowchart like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes) [[6]](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579).
+
+Below is the ROC curve of the model:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-roc.png)
+
+The prediction of 500 tweets can be seen below in bar chart and scatterplot:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-predict-graph.png)
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-predict-plot.png)
+
 
 **Support Vector Machine(SVM)**
 
 SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. The idea of SVM is simple: The algorithm creates a line or a hyperplane which separates the data into classes [[5]](https://towardsdatascience.com/https-medium-com-pupalerushikesh-svm-f4b42800e989).
 
-**Decision Tree**
-
-Decision tree is one of the most common machine learning algorithms. Used in statistics and data analysis for predictive models. A decision tree is a flowchart like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes) [[6]](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579).
 
 **Random Forest**
 
