@@ -15,6 +15,16 @@ The dataset has been cleaned using the custom defined function where special cha
 
 *Negative > 33392, Positive > 33316, Neutral  > 33242*
 
+**Receiver Operating Characteristic Curve (ROC)** 
+
+ROC curves typically feature true positive rate on the Y axis, and false positive rate on the X axis. This means that the top left corner of the plot is the "ideal" point - a false positive rate of zero, and a true positive rate of one. This is not very realistic, but it does mean that a larger area under the curve (AUC) is usually better [[4]](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html).
+
+**Twitter API (Tweepy)**
+
+Tweepy is a Python library for accessing the Twitter API. It is great for simple automation and creating twitter bots. 
+
+Total of 500 tweets are fetched by using the tweepy. The user input is taken and hashtags are searched via api and prediction for each of the 500 tweets are shown in the bar chart and scatterplot. 
+
 ## Lexicon Based Approach
 
 Generally speaking, in lexicon-based approaches a piece of text message is represented as a bag of words. Following this representation of the message, sentiment values from the dictionary are assigned to all positive and negative words or phrases within the message. A combining function, such as sum or average, is applied in order to make the final prediction regarding the overall sentiment for the message. Apart from a sentiment value, the aspect of the local context of a word is usually taken into consideration, such as negation or intensification.
@@ -37,6 +47,18 @@ Machine Learning involves training the model by certain portion of data making t
 **Logistic Regression:**
 
 Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Some of the examples of classification problems are Email spam or not spam, Online transactions Fraud or not Fraud, Tumor Malignant or Benign. Logistic regression transforms its output using the logistic sigmoid function to return a probability value [[4]](https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148).
+
+
+Below is the ROC curve of the model:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-roc.png)
+
+The prediction of 500 tweets can be seen below in bar chart and scatterplot:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-predict-graph.png)
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-predict-plot.png)
+
 
 **Support Vector Machine(SVM)**
 
