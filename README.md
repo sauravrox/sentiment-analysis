@@ -78,6 +78,18 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
 SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. The idea of SVM is simple: The algorithm creates a line or a hyperplane which separates the data into classes [[5]](https://towardsdatascience.com/https-medium-com-pupalerushikesh-svm-f4b42800e989).
 
+The SVM model with Linear kernel yielded the accuracy of Accuracy 68 percent and F1 score of 68.09 percent. The SVM model with RBF kernel yielded the accuracy of Accuracy 68 percent and F1 score of 68.09 percent. Polynomial kernel yield highest accuracy of 62.58 percent and F1 score of 63.79 percent. Lastly, the SVM model with Polynomial kernel yielded the highest Accuracy of 74.83 percent
+F1 score of 74.57 percent.
+
+Below is the ROC curve of the SVM model with Polynomial kernel:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/svm-roc.png)
+
+The prediction of 500 tweets can be seen below in bar chart and scatterplot (with Polynomial kernel):
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/svm-predict-graph.png)
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/svm-predict-plot.png)
 
 **Random Forest**
 
