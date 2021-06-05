@@ -95,9 +95,30 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot (wit
 
 Random forest methods combines multiple decision trees, trains each one on a slightly different set of observations. Splitting nodes in each tree considering a limited number of features. The final predictions of the random forest are made by averaging the predictions of each individual tree Citation Citation [[7]](https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76).
 
+Below is the ROC curve of the model:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-roc.png)
+
+The prediction of 500 tweets can be seen below in bar chart and scatterplot:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-predict-graph.png)
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-predict-plot.png)
+
+
 **XGBoost**
 
 XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks. However, when it comes to small-to-medium structured/tabular data, decision tree based algorithms are considered best-in-class right now [[8]](https://www.kdnuggets.com/2019/05/xgboost-algorithm.html).
+
+Below is the ROC curve of the model:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/xgb-roc.png)
+
+The prediction of 500 tweets can be seen below in bar chart and scatterplot:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/xgb-predict-graph.png)
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/xgb-predict-plot.png)
 
 
 **Long Short-Term Memory (LSTM)**
