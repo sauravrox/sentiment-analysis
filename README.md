@@ -59,6 +59,11 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
 ![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-predict-plot.png)
 
+Here is the confusion matrix of the model:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-cm.png)
+
+
 **Decision Tree**
 
 Decision tree is one of the most common machine learning algorithms. Used in statistics and data analysis for predictive models. A decision tree is a flowchart like structure in which each internal node represents a “test” on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes) [[6]](https://towardsdatascience.com/understanding-decision-trees-once-and-for-all-2d891b1be579).
@@ -72,6 +77,10 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 ![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-predict-graph.png)
 
 ![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-predict-plot.png)
+
+Here is the confusion matrix of the model:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-cm.png)
 
 
 **Support Vector Machine(SVM)**
@@ -91,6 +100,7 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot (wit
 
 ![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/svm-predict-plot.png)
 
+
 **Random Forest**
 
 Random forest methods combines multiple decision trees, trains each one on a slightly different set of observations. Splitting nodes in each tree considering a limited number of features. The final predictions of the random forest are made by averaging the predictions of each individual tree Citation Citation [[7]](https://towardsdatascience.com/an-implementation-and-explanation-of-the-random-forest-in-python-77bf308a9b76).
@@ -104,6 +114,10 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 ![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-predict-graph.png)
 
 ![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-predict-plot.png)
+
+Here is the confusion matrix of the model:
+
+![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-cm.png)
 
 
 **XGBoost**
