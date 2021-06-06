@@ -11,7 +11,7 @@ The dataset used in the project has been downloaded from [Kaggle](https://www.ka
 
 The dataset has been cleaned using the custom defined function where special characters, symbols, links and twitter handle are removed. The null values have been removed which left the total of 99950 usable cleaned rows.
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dataset.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/dataset.png)
 
 *Negative > 33392, Positive > 33316, Neutral  > 33242*
 
@@ -51,17 +51,17 @@ Logistic regression is a classification algorithm used to assign observations to
 
 Below is the ROC curve of the model:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-roc.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/lr-roc.png)
 
 The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-predict-graph.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/lr-predict-graph.png)
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-predict-plot.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/lr-predict-plot.png)
 
 Here is the confusion matrix of the model:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/lr-cm.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/lr-cm.png)
 
 
 **Decision Tree**
@@ -70,17 +70,17 @@ Decision tree is one of the most common machine learning algorithms. Used in sta
 
 Below is the ROC curve of the model:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-roc.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/dt-roc.png)
 
 The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-predict-graph.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/dt-predict-graph.png)
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-predict-plot.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/dt-predict-plot.png)
 
 Here is the confusion matrix of the model:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/dt-cm.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/dt-cm.png)
 
 
 **Support Vector Machine(SVM)**
@@ -92,13 +92,13 @@ F1 score of 74.57 percent.
 
 Below is the ROC curve of the SVM model with Polynomial kernel:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/svm-roc.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/svm-roc.png)
 
 The prediction of 500 tweets can be seen below in bar chart and scatterplot (with Polynomial kernel):
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/svm-predict-graph.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/svm-predict-graph.png)
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/svm-predict-plot.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/svm-predict-plot.png)
 
 
 **Random Forest**
@@ -107,17 +107,17 @@ Random forest methods combines multiple decision trees, trains each one on a sli
 
 Below is the ROC curve of the model:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-roc.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/rf-roc.png)
 
 The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-predict-graph.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/rf-predict-graph.png)
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-predict-plot.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/rf-predict-plot.png)
 
 Here is the confusion matrix of the model:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/rf-cm.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/rf-cm.png)
 
 
 **XGBoost**
@@ -126,13 +126,13 @@ XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a
 
 Below is the ROC curve of the model:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/xgb-roc.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/xgb-roc.png)
 
 The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/xgb-predict-graph.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/xgb-predict-graph.png)
 
-![alt text](https://raw.githubusercontent.com/sauravrox/sentiment-analysis/main/images/xgb-predict-plot.png)
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/xgb-predict-plot.png)
 
 
 **Long Short-Term Memory (LSTM)**
