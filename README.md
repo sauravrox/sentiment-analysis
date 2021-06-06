@@ -134,6 +134,10 @@ The prediction of 500 tweets can be seen below in bar chart and scatterplot:
 
 ![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/xgb-predict-plot.png)
 
+Here is the confusion matrix of the model:
+
+![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/xgb-cm.png)
+
 
 **Long Short-Term Memory (LSTM)**
 
