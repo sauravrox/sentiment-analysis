@@ -148,6 +148,8 @@ Long Short-Term Memory (LSTM) networks are a modified version of recurrentneural
 
 Naive Bayes methods are a set of supervised learning algorithms based on applyingBayes’ theorem with the “naive” assumption of conditional independence betweenevery pair of features given the value of the class variable. In spite of their appar-ently over-simplified assumptions, naive Bayes classifiers have worked quite well inmany real-world situations, famously document classification and spam filtering.They require a small amount of training data to estimate the necessary parameters [[10]](https://scikit-learn.org/stable/modules/naive-bayes.html).
 
+The 'multinomial' Naive Bayes classifier is suitable for classification with discretefeatures (e.g., word counts for text classification). The multinomial distributionnormally requires integer feature counts.
+
 Below is the ROC curve of the model:
 
 ![alt text](https://github.com/sauravrox/sentiment-analysis/blob/main/images/nb-roc.png)
